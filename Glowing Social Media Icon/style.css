@@ -35,8 +35,6 @@ ul li{
     transition: 0.5s;
 }
 
-
-
 ul li:hover{
     z-index: 10000;
     transform: scale(0.75);
@@ -60,9 +58,6 @@ ul li::after{
     inset: 0;
     background: var(--bg);
     transform: rotate(45deg);
-
-
-
 }
 
 ul li a{
